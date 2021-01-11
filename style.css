@@ -1,0 +1,172 @@
+/* COMMON */
+body
+{
+  font-family: georgia;
+}
+
+
+/* NAVBAR */
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+/*PAGE OF CONNEXION*/
+
+.pageConnexion
+{
+  background-image: url("img/connexion/background.png");
+  color: white;
+}
+.jumbotronAcceuil
+{
+  background-color: rgba(35, 122, 119, 0%);
+}
+.borderButton
+{
+  border: none;
+}
+.hrAcceuil
+{
+  border-color: white;
+}
+.titleConnexion
+{
+  color : white!important;
+}
+.opacityInput
+{
+  background-color: rgba(255, 255, 255, 0%);
+  border: none;
+  border-bottom: 1px solid;
+  color: white;
+}
+.opacityInput: hover
+{
+  opacity: 0%
+}
+.buttonSubmit
+{
+  background-color: #247A77;
+}
+
+/*PAGE OF EXPLORATOR*/
+.pageExplorator
+{
+  background: linear-gradient(5deg, rgba(15, 64, 69, 100%), rgba(0, 0, 0, 100%)80%);
+  color: white;
+
+}
+.titleExplorator
+{
+  background-color: rgba(70, 232, 238, 0%);
+  padding: 4%;
+  border-radius: 30px;
+}
+h2
+{
+  text-align: center;
+}
+.breadcrumb
+{
+  background-color: rgba(70, 232, 238, 20%);
+
+}
+
+
+
+
+
+.hiddenFiles
+{
+  text-align:  center;
+  padding-bottom: 2%;
+}
+.folders
+{
+  width: 20%!important;
+  margin: auto;
+}
+.files
+{
+  width: 40%!important;
+  margin: auto;
+}
+.hideFile
+{
+  width: 40%;
+}
+.delete .upload
+{
+
+}
+.delete
+{
+  display: block;
+  margin-left: auto;
+  width: 6%;
+  height: 6%;
+  padding-right: 1%;
+}
+.upload
+{
+  display: block;
+  margin-right: auto;
+  width: 6%;
+  height: 4%;
+  padding-left: 1%;
+}
+.deleteFile
+{
+  display: block;
+  margin-left: auto;
+  width: 14%;
+  height: 14%;
+  padding-right: 2%;
+}
+.uploadFile
+{
+  display: block;
+  margin-right: auto;
+  width: 14%;
+  height: 14%;
+  padding-left: 2%;
+}
+.optionItems
+{
+  margin: auto;
+}
+.option
+{
+  display: flex;
+  justify-content: space-around;
+}
+.addFolder
+{
+  width: 10%;
+}
+.bin
+{
+  width: 5%!important;
+  height: 5%;
+}
+.img-fluid
+{
+  max-width: 5%!important;
+
+}
+.imgBtm
+{
+  width: 80%!important;
+
+}
+/* FOOTER */
+
+footer {
+	margin-top: 200px!important;
+	background-color: rgba(4, 57, 59, 73%);
+  border: 1px solid;
+  border-color: rgba(15, 45, 41, 100%);
+
+}
